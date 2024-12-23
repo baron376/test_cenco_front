@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+body { font-family: "Open Sans", sans-serif; }
+
+p .notificaciones { color: #8981EF; }
+
+.bg-primary { background-color: #8981EF !important; }
+
+.bg-light.navbar-light { background-color: #8981EF !important; }
+
+.btn-outline-primary { border-color: #b8221d; color: #b8221d; }
+
+.btn-primary { background-color: #E8308A; border-color: #E8308A; }
+.btn-primary:hover { /* Nuevo */ background-color: #8981EF; border-color: #8981EF; }
+
+.btn-success { background-color: #21D596; border-color: #21D596; }
+.btn-success:hover { /* Nuevo */ background-color: #a4c735; border-color: #a4c735; }
+
+.btn-danger { background-color: #f03434; border-color: #f03434; }
+.btn-danger:hover { /* Nuevo */ background-color: #d91e18; border-color: #d91e18; }
+
+nav .nav-link.active { background-color: #8981EF; }
+
+.nav-tabs select.form-control, .nav-tabs input.form-control { border-color: #E8308A; color: #E8308A; }
+
+.pagination .page-item a.active { background-color: #E8308A; }
+
+.tab-modulo { background-color: #E8308A; }
+.tab-modulo .nav-tabs { border-bottom-color: #8981EF; }
+.tab-modulo .nav-tabs .nav-link.active { background-color: #8981EF; border-color: #8981EF; }
+
+/* Nuevo Campañas*/
+.card-deck::-webkit-scrollbar-thumb { background: #E8308A; }
+
+.card-color .card-header{
+    background-color:#8981EF !important
+  }
+  
+  .card-color .card-body{
+    background-color:#f7f7f7 !important
+  }
+  
+  .card-header a{
+    color: white;
+  }

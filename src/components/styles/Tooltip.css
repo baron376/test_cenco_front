@@ -1,0 +1,180 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-container > div {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip-container .tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .info-message {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+    /* Otros estilos que desees agregar */
+}
+
+.error {
+  border-color: red;
+  position: absolute;
+  color: red;
+}
+
+
+.dropzone-custom {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: black;
+}
+
+.dropzone-custom span {
+  color: white;
+}
+
+.btn-no-bg {
+  background-color: transparent;
+  border: none;
+  color: inherit; /* Mantener el color del texto según el tema */
+  padding: 0; /* Ajustar el padding si es necesario */
+  font-size: inherit; /* Mantener el tamaño de la fuente según el tema */
+  cursor: pointer; /* Cambiar el cursor para indicar que es clickeable */
+}
+
+.btn-no-bg:hover, .btn-no-bg:focus {
+  background-color: transparent;
+  color: inherit;
+  box-shadow: none;
+  outline: none;
+}
+
+.multiselect-custom .multiselect__single {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  width: calc(100% - 25px); /* Adjust width to account for padding */
+}
+
+.search-icon {
+  right: 10px; /* Adjust position */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+
+
+
+/* Estilos para el Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Estilo personalizado para el ícono de flecha */
+#collapseZonas .accordion-button::after {
+  font-family: "Font Awesome 5 Free"; /* Asegúrate de que el tipo de fuente esté correctamente definido */
+  content: "\f107"; /* El contenido del ícono de flecha cuando el panel está cerrado */
+}
+
+#collapseZonas.show .accordion-button::after {
+  font-family: "Font Awesome 5 Free"; /* Asegúrate de que el tipo de fuente esté correctamente definido */
+  content: "\f106"; /* El contenido del ícono de flecha cuando el panel está abierto */
+}
+
+.custom-acc .accordion-item {
+  border: none;
+  background-color: #F5F8F9; }
+.custom-acc .accordion-button {
+  background-color: transparent; }
+  .custom-acc .accordion-button.collapsed {
+    border-bottom: 1px solid rgba(2, 95, 115, 0.4); }
+  .custom-acc .accordion-button:not(.collapsed) {
+    color: #373737;
+    background-color: transparent;
+    box-shadow: none; }

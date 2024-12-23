@@ -1,0 +1,68 @@
+.input-datapiker{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 320px;
+    height: calc(1.5em + .75rem + 2px);
+    text-align: center;
+    font-family: inherit;
+}
+
+.style-tables-campanas {
+    width: 100%;
+    vertical-align: top;
+}
+
+.style-tables-campanas thead {
+    border-bottom: 2px solid #0B5A97;
+}
+
+.style-tables-campanas tbody {
+    vertical-align: top;
+    /* border: 1px solid #CFCFCF; */
+}
+
+.style-tables-campanas tbody tr {
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.style-tables-campanas tbody tr.border-none {
+    border-bottom: transparent;
+}
+
+.style-tables-campanas tbody td {
+    padding: 3px 5px;
+}
+
+.td-campanas {
+    width: 30%;
+}
+
+.space-table {
+    padding: 5px 0;
+}
+
+.style-tables-campanas textarea.form-control {
+    min-height: 100px;
+} 
+
+.col-sm-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dynamic-text {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  
+  .dynamic-text .form-control-plaintext {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none; /* Ensure no border to prevent additional space */
+  }

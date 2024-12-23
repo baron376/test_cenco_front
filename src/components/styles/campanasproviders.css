@@ -1,0 +1,160 @@
+.input-datapiker{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 320px;
+    height: calc(1.5em + .75rem + 2px);
+    text-align: center;
+    font-family: inherit;
+}
+
+.multiselect-container {
+    border: 1px solid #080707; /* Ajusta el color y el grosor del borde según tus preferencias */
+}
+
+.searchBox::placeholder {
+    color: black;
+}
+
+.input-custom {
+    border: 1px solid #080707 !important;
+    /* Agrega cualquier otro estilo que desees */
+}
+
+.input-custom::placeholder {    
+    color: black !important;
+}
+
+.custom-datepicker-header {
+    display: flex;
+    align-items: center;
+}
+
+.calendar-icon {
+    margin-left: auto; /* Mueve el ícono a la derecha */
+}
+
+.custom-btn {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border-color: black; /* Borde negro (si lo hay) */
+}
+
+.custom-btn:hover {
+    background-color: darkgrey; /* Cambia el fondo cuando se pasa el ratón */
+}
+
+
+.dropzone-custom {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+}
+
+.dropzone-custom span {
+    color: white;
+}
+
+.multiselect-container-admin {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px; /* Ajusta la posición a la izquierda según sea necesario */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc; /* Ajusta el color según sea necesario */
+    pointer-events: none; /* Esto asegura que el ícono no interfiera con las interacciones del campo de entrada */
+    font-size: 1rem; /* Ajusta el tamaño según sea necesario */
+}
+
+.multiselect-container-admin input[type="text"] {
+    padding-left: 30px; /* Ajusta el relleno para dejar espacio para el ícono */
+}
+
+.custom-hr {
+    border: none; /* Elimina cualquier estilo de borde predeterminado */
+    border-top: 1px solid #7e7c7c70; /* Ajusta el grosor y el color del borde superior */
+    margin: 20px 0; /* Ajusta los márgenes superior e inferior */
+}
+
+.custom-button {
+    background-color: gray !important;
+    font-size: 1.25rem !important;
+    padding: 8px 40% !important;
+    border-radius: 1px !important;
+}
+
+
+@media (max-width: 767px) {
+    .input-datapiker {
+        width: 170px; /* Ancho para dispositivos pequeños */
+    }
+}
+
+@media (min-width: 768px) {
+    .input-datapiker {
+        width: 320px; /* Ancho para dispositivos medianos y grandes */
+    }
+}
+
+.main-container {
+    margin-right: 20px; /* Puedes ajustar este valor según tus necesidades */
+}
+
+.custom-checkbox {
+    /* Aumentar el tamaño del checkbox */
+    transform: scale(1.5);
+    padding: 10px; /* Ajusta el padding según tus necesidades */
+}
+
+.custom-checkbox::before {
+    /* Cambiar el color del check */
+    border: 2px solid #020217; /* Puedes cambiar esto al color que prefieras */
+}
+
+
+.container {
+    padding: 20px;
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Permite desplazamiento vertical si el contenido es grande */
+}
+
+.left-panel ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.right-panel .form-group {
+    margin-bottom: 15px;
+}
+
+.right-panel .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.right-panel .btn-secondary {
+    display: block;
+    margin-top: 5px;
+}
+
+.download-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black; /* Color del texto */
+}
+
+.download-link h4 a {
+    color: black; /* Color del texto del enlace */
+}

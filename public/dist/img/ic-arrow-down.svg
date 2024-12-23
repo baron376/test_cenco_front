@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="8px" viewBox="0 0 15 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icGroup 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 15 0 15 8 0 8"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menú-lateral" transform="translate(-160.000000, -263.000000)">
+            <g id="Group-3-Copy">
+                <g transform="translate(160.000000, 263.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M7.49633178,8 C7.40978628,8.00015564 7.32672583,7.96517505 7.26546225,7.9027097 L0.0915399846,0.573431646 C-0.0335856778,0.441098803 -0.0299783413,0.230184552 0.0995494944,0.102349215 C0.225928553,-0.0223316225 0.42625801,-0.0223316225 0.552606498,0.102349215 L7.49630121,7.19575811 L14.4393539,0.101693328 C14.5644796,-0.0306395139 14.7708926,-0.0342937369 14.900451,0.0935103676 C15.0300094,0.221345705 15.0335556,0.432228724 14.9084605,0.564592799 C14.9058315,0.567372507 14.9031718,0.570089749 14.900451,0.57277576 L7.72655933,7.90205381 C7.66554032,7.96458163 7.58272443,7.99978085 7.49633178,8" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

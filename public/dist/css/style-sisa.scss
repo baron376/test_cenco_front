@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+$azul: #196AA4;
+$azul-intermedio: #354f6a;
+$azul-claro: #0B5A97;
+
+$naranja: #f19621;
+
+$verde: #238538;
+$verde-intermedio: #1fa02e;
+$verde-claro: #a4c735;
+
+$rojo: #b8221d;
+$rojo-intermedio: #d91e18;
+$rojo-claro: #f03434;
+
+$gris-oscuro: #333333;
+$gris-claro: #888888;
+
+$blanco: #ffffff;
+$blanco-invierno: #f0f0f0;
+$blanco-invierno-claro: #f4f4f4;
+
+$tipografia: 'Open Sans', sans-serif;
+
+body {
+    font-family: $tipografia;
+}
+
+p {
+    .notificaciones {
+        color: $rojo;
+    }
+}
+
+.bg-primary {
+    background-color: $rojo!important;
+}
+
+.bg-light.navbar-light {
+    background-color: $rojo!important;
+}
+.btn-outline-primary {
+    border-color: $rojo;
+    color: $rojo;
+}
+.btn-primary {
+    background-color: $rojo;
+    border-color: $rojo;
+    &:hover { /* Nuevo */
+        background-color: $rojo-claro;
+        border-color: $rojo-claro;
+    }
+}
+
+.btn-success {
+    background-color: $verde;
+    border-color: $verde;
+    &:hover { /* Nuevo */
+        background-color: $verde-claro;
+        border-color: $verde-claro;
+    }
+}
+.btn-danger {
+    background-color: $rojo-claro;
+    border-color: $rojo-claro;
+    &:hover { /* Nuevo */
+        background-color: $rojo-intermedio;
+        border-color: $rojo-intermedio;
+    }
+}
+
+nav {
+    .nav-link {
+        &.active {
+            background-color: $rojo;
+        }
+    }
+}
+
+.nav-tabs {
+    select, input {
+        &.form-control {
+            border-color: $rojo;
+            color: $rojo;
+        }
+    }
+}
+
+.pagination {
+    .page-item {
+        a {
+            &.active{
+                background-color: $rojo;
+            }
+        }
+    }
+}
+
+.tab-modulo {
+    background-color: $rojo-intermedio;
+    .nav-tabs{
+        border-bottom-color: $rojo;
+        .nav-link {
+            &.active {
+                background-color: $rojo;
+                border-color: $rojo;
+            }
+        }
+    }
+}
+/* Nuevo Campañas*/
+.card-deck {
+    &::-webkit-scrollbar-thumb {
+        background: $rojo;
+    }
+}
